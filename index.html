@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Laura Ogbechie" />
+    <meta name="description" content="WP Pusher Checkout Page" />
+    <title>WP Pusher</title>
+    <link rel="stylesheet" href="./assets/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+  </head>
+
+  <body>
+    <header>
+      <img
+        class="header__logo"
+        src="./assets/images/wppusher-logo copy.jpg"
+        alt="WP Pusher logo"
+      />
+      <nav class="header__nav">
+        <ul class="header__ul">
+          <li>
+            <a href="#">Download</a>
+          </li>
+          <li>
+            <a href="#">Learn more</a>
+          </li>
+          <li>
+            <a href="#">Pricing</a>
+          </li>
+          <li>
+            <a href="#">Help</a>
+          </li>
+          <li>
+            <a class="account" href="#">Account</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="container">
+        <article class="checkout__container">
+          <div class="checkout__header">
+            <h2 class="checkout__h2">Checkout</h2>
+          </div>
+
+          <div class="checkout__basicInfo">
+            <span class="number">1</span>
+            <span class="info">Your Basic Information</span>
+
+            <article class="checkout__basicInfo__form">
+              <form action="" class="basicInfo__form">
+                <div class="fN__container">
+                  <label class="basicInfo__label" for="firstName"
+                    >First Name</label
+                  >
+                  <input
+                    class="basicInfo__input"
+                    type="text"
+                    name="firstName"
+                    id="firstName"
+                    placeholder="Jane"
+                    required
+                  />
+                </div>
+
+                <div class="lN__container">
+                  <label class="basicInfo__label" for="lastName"
+                    >Last Name</label
+                  >
+                  <input
+                    class="basicInfo__input"
+                    type="text"
+                    name="lastName"
+                    id="lastName"
+                    placeholder="Doe"
+                    required
+                  />
+                </div>
+
+                <div class="email__container">
+                  <label class="basicInfo__label" for="email">Email</label>
+                  <input
+                    class="basicInfo__input"
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="janedoe@example.com"
+                    required
+                  />
+                </div>
+              </form>
+            </article>
+          </div>
+
+          <div class="checkout__paymentInfo">
+            <span class="number">2</span>
+            <span class="info">Your Payment Information</span>
+            <div class="paymentInfo__details">
+              <label class="paymentInfo__label" for="creditCard"
+                >Credit Card</label
+              >
+              <input
+                class="paymentInfo__input"
+                type="text"
+                name="creditCard"
+                id="creditCard"
+                placeholder="Card Number                                                                                                MM/YY   CVC"
+              />
+            </div>
+          </div>
+
+          <div class="checkout__bottom">
+            <button class="checkout__button" type="submit">
+              Buy WP Pusher
+            </button>
+            <p class="checkout__bottom__text">
+              <span class="cfooter--number__highlighted">?</span
+              ><b>Need any help?</b
+              ><span class="cfooter--grey-text">
+                Don't hesitate to
+                <u
+                  >contact&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</u
+                ><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;support!</span
+              >
+            </p>
+            <p class="cfooter__logo">
+              Powered by <span class="cfooter__logo--bold">Stripe</span>
+            </p>
+            <!-- <img src="./assets/images/powered_by_stripe.png" alt="powered_by_stripe"> -->
+          </div>
+        </article>
+
+        <article class="freelancer__container">
+          <h2 class="freelancer__h2">Freelancer</h2>
+          <div class="freelancer__rate">
+            <span class="freelancer__rate-dollar">$</span
+            ><span class="freelancer__rate-num">99</span>
+            <span class="freelancer__rate-year">/ year</span>
+            <p><i>Automatically renews <br>after 1 year</i></p>
+          </div>
+          <div class="freelancer__list">
+            <span class="material-symbols-outlined"> check_circle </span>
+            <span class="freelancer__list--text">Use of <b>5</b> clients site</span><br />
+
+            <span class="material-symbols-outlined"> check_circle </span>
+            <span class="freelancer__list--text">Private repositories</span><br />
+
+            <span class="material-symbols-outlined"> check_circle </span>
+            <span class="freelancer__list--text">Email support</span><br />
+          </div>
+
+          <div class="freelancer__agency">
+            <p class="freelancer__agency--text">Need <b>20</b> client sites?</p>
+            <p class="freelancer__agency--plan">
+              <b>Switch to <i>Agency</i> plan</b>
+            </p>
+          </div>
+
+          <div class="freelancer__bottom">
+            <p class="freelancer__bottom--text">
+              <i>FTP is horrible to deal with.
+              <b
+                >WP Pusher</b
+                > solves that issue, and the customer support is
+                awesome!</i>
+            </p>
+            <div class="freelancer__kirkBeard">
+              <img
+                src="./assets/images/Kirk_Beard-300-x-300.png"
+                alt="Kirk Beard"
+              />
+              <span class="freelancer__text">Kirk Beard</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <span class="footer__one">&copy; 2018 WP Pusher IVS &nbsp;<span class="footer__middle-dot">.</span></span>
+      <span class="footer__two">&nbsp;Terms of Service</span>
+    </footer>
+  </body>
+</html>
